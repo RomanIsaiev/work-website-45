@@ -165,7 +165,7 @@ img {
   border-radius: 7px;
   border: 1px solid #ffd676;
 
-  max-width: 320px;
+  max-width: 340px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -234,8 +234,8 @@ img {
 
   .vidio-wrapper {
     border: 2px solid #ffd676;
-    max-width: 654px;
-    height: 367px;
+    max-width: 838px;
+    height: auto;
   }
 
   .hide {
@@ -249,15 +249,26 @@ img {
   padding-bottom: 50px;
 }
 
+.form .container {
+  position: relative;
+}
+
 .form-wrapper {
+  position: relative;
+
   padding: 24px 10px;
   border-radius: 7px;
   border: 1px solid #bc68bf;
+  background-color: #17171780;
 
   max-width: 340px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.money-form {
+  display: none;
 }
 
 .form-title {
@@ -346,6 +357,13 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .money-form {
+    display: block;
+    position: absolute;
+    top: -50px;
+    right: -70px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -379,5 +397,15 @@ img {
   .form-warning {
     font-size: 22px;
     max-width: 476px;
+  }
+
+  .money-form {
+    display: block;
+    position: absolute;
+    top: -90px;
+    right: -70px;
+
+    width: 200px;
+    height: 200px;
   }
 }
