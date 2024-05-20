@@ -165,7 +165,6 @@ img {
   border: 1px solid #ffd676;
 
   max-width: 320px;
-  height: 180px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -190,7 +189,6 @@ img {
   .vidio-wrapper {
     border: 2px solid #ffd676;
     max-width: 570px;
-    height: 319px;
   }
 }
 
